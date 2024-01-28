@@ -12,3 +12,14 @@ O saldo das Empresas será calculado com depósitos e saques, descontando taxas 
 A escolha dessas tecnologias visa uma implementação eficiente, segura e de fácil manutenção para atender às necessidades financeiras de Empresas e Clientes.
 
 
+Dificuldades
+
+
+Ao conduzir este projeto, identifiquei lacunas em meu conhecimento que impactaram certos aspectos da implementação. Entre as áreas em que enfrentei desafios, destaca-se a habilidade de implementar callbacks de forma eficaz. A falta de familiaridade com os mecanismos apropriados para gerenciar essas chamadas assíncronas limitou a dinâmica de interação entre os diferentes componentes do sistema.
+
+Além disso, a estruturação do código foi afetada pela falta de expertise em certos padrões de design e boas práticas de arquitetura de software. A busca por uma organização mais eficiente e modular esbarrou em limitações decorrentes dessa lacuna de conhecimento.
+
+A ausência de familiaridade com determinadas técnicas e algoritmos específicos também impactou a implementação de lógica mais sofisticada para otimizar certos processos no sistema. Esta falta de profundidade técnica influenciou diretamente na eficiência e no desempenho geral da aplicação.
+
+Reconheço a importância de preencher essas lacunas por meio de um processo contínuo de aprendizado, buscando aprimorar minhas habilidades técnicas para enfrentar desafios futuros de maneira mais assertiva e eficiente.
+
