@@ -3,7 +3,7 @@ package br.com.banco.controller;
 
 import br.com.banco.business.Transacao;
 import br.com.banco.models.Conta;
-import br.com.banco.persitence.ContaRepository;
+import br.com.banco.persistence.ContaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -17,7 +17,6 @@ public class ContaController {
     public ContaController(ContaRepository contaRepository) {
         this.contaRepository = contaRepository;
     }
-
 
     @PostMapping("/salvar")
     public Conta salvarConta(@RequestBody Conta conta) {
@@ -52,9 +51,5 @@ public class ContaController {
 
         return contaRepository.save(conta);
     }
-
-
-
-
 
 }
